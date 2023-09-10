@@ -1,0 +1,56 @@
+.specialists {
+    padding: 40px 0;
+    text-align: center;
+    background-color: #f8f8f8; /* Background color for the specialist section */
+  }
+  .specialists img{
+    width: 300px;
+    height: auto;
+  }
+  
+  .specialists h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .specialist-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .specialist-card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .specialist-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .specialist-card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #07ccec; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1296db; /* Button background color on hover */
+  }
+  

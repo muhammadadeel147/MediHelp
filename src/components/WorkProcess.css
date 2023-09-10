@@ -1,0 +1,65 @@
+.work-process {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #0D2146; /* Background color for the work process section */
+  }
+  
+  .work-process h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #fff; /* Text color for the heading */
+  }
+  
+  .process-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .process-step {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 15px; /* Round shape for the card */
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .process-step:hover {
+    transform: translateY(-5px); /* Add a slight lift effect on hover */
+  }
+  
+  .process-step img {
+    width: 100px; /* Adjust the image size as needed */
+    margin: 0 auto 20px;
+    display: block;
+  }
+  
+  .process-step h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #0D2146; /* Text color for the step title */
+  }
+  
+  .process-step p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #777; /* Text color for the step description */
+  }
+  
+  button {
+    background-color: #07ccec; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1296db; /* Button background color on hover */
+  }
+  
