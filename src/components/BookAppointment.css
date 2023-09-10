@@ -1,0 +1,85 @@
+/* Container styling */
+.book-appointment-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ccc; /* Add a border for the section */
+    border-radius: 8px;
+    background-color: #f7f7f7; /* Change the background color as needed */
+  }
+  
+  /* Left Info Container */
+  .info-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #007bff; /* Change the background color as needed */
+    color: white; /* Change the text color as needed */
+    border-radius: 8px;
+  }
+  
+  .info-container h2 {
+    font-size: 24px; /* Change the font size as needed */
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-container ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  /* Right Form Container */
+  .form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .form-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Form styling */
+  .form-group {
+    margin: 10px 0;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc; /* Add a border for input fields */
+    border-radius: 4px;
+  }
+  
+  /* Button styling */
+  .make-appointment-button {
+    background-color: #007bff; /* Change the button color as needed */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .make-appointment-button:hover {
+    background-color: #0056b3; /* Change the hover color as needed */
+  }
+  
+  /* Note at the bottom */
+  .appointment-note {
+    margin-top: 10px;
+    color: #777; /* Change the note color as needed */
+  }
+  

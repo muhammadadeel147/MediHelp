@@ -6,6 +6,7 @@
     background-color: #333; /* Change the background color as needed */
     color: white; /* Change the text color as needed */
     padding: 10px 20px;
+    background-color: #07CCEC;
   }
   
   .title {
@@ -13,6 +14,7 @@
     font-size: 44px; /* Adjust the font size as needed */
     font-weight: bold;
     margin-left: 40px; /* Adjust the distance from the left side */
+    cursor: pointer;
   }
   
   /* Menu on the right */
@@ -31,17 +33,21 @@
   .menu ul li {
     margin-right: 20px;
     cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
   }
   
   /* Login/Register buttons */
   .auth-buttons button {
     margin-left: 20px;
     padding: 8px 16px;
-    background-color: #007bff; /* Change the button color as needed */
+    background-color: #27477D; /* Change the button color as needed */
     color: white; /* Change the text color as needed */
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    border-radius: 20px;
   }
   
   /* Style the buttons on hover */
