@@ -1,0 +1,62 @@
+.your-component-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f0f0f0; /* Background color for the container */
+  }
+  
+  .left-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .right-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .book-appointment {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333; /* Text color */
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners for the button */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  
