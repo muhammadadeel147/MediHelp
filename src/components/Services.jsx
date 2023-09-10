@@ -1,57 +1,66 @@
 import React from 'react';
 import './Services.css'; // You can create this CSS file for styling
-
+import img1 from "../Assets/cardiology.jpg"
+import img2 from "../Assets/6.jpg"
+import img3 from "../Assets/7.jpg"
+import img7 from "../Assets/8.jpg"
+import img4 from "../Assets/9.jpg"
+import img5 from "../Assets/10.jpg"
+import img6 from "../Assets/11.jpg"
+import img8 from "../Assets/3.jpg"
+import img9 from "../Assets/4.jpg"
+import img10 from "../Assets/5.jpg"
 const Services = () => {
   const servicesData = [
     {
       title: 'Cardiology',
       description: 'Expert cardiology services for a healthy heart.',
-      image: 'cardiology-image.jpg',
+      image: img1,
     },
     {
       title: 'Orthopedics',
       description: 'Comprehensive orthopedic care for musculoskeletal issues.',
-      image: 'orthopedics-image.jpg',
+      image: img2,
     },
     {
       title: 'Dermatology',
       description: 'Specialized dermatology treatments for skin health.',
-      image: 'dermatology-image.jpg',
+      image: img3,
     },
     {
       title: 'Gynecology',
       description: 'Women’s health services with care and compassion.',
-      image: 'gynecology-image.jpg',
+      image: img4,
     },
     {
       title: 'Pediatrics',
       description: 'Pediatric care to ensure the well-being of children.',
-      image: 'pediatrics-image.jpg',
+      image: img5,
     },
     {
       title: 'Ophthalmology',
       description: 'Advanced eye care and vision correction services.',
-      image: 'ophthalmology-image.jpg',
+      image: img6,
     },
     {
       title: 'Dental Care',
       description: 'Complete dental care for a healthy smile.',
-      image: 'dental-image.jpg',
+      image: img7,
     },
     {
       title: 'ENT Services',
       description: 'Ear, nose, and throat treatments for better health.',
-      image: 'ent-image.jpg',
+image: img8,
     },
     {
       title: 'Neurology',
       description: 'Expert neurological care for a better life.',
-      image: 'neurology-image.jpg',
+      image: img9,
     },
     {
       title: 'Physical Therapy',
       description: 'Rehabilitation and physical therapy services.',
-      image: 'physical-therapy-image.jpg',
+      image: img10,
     },
   ];
 

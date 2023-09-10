@@ -1,0 +1,19 @@
+/* ContactUsPage.css */
+
+.contact-info {
+    background-color: #f8f9fa;
+  }
+  
+  .contact-info .contact-item {
+    text-align: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+  }
+  
+  .contact-form {
+    background-color: #ffffff;
+  }
+  .mt-4 {
+    margin-top: 6.5rem !important;
+}

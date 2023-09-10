@@ -1,0 +1,16 @@
+/* SignUpPage.css */
+
+.signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  .signup-form input {
+    border-radius: 25px;
+  }
+  
+  .signup-form button {
+    border-radius: 25px;
+  }
+  

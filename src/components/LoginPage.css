@@ -1,0 +1,14 @@
+/* LoginPage.css */
+
+.login-form {
+    background-color: #ffffff;
+  }
+  
+  .login-form input {
+    border-radius: 25px;
+  }
+  
+  .login-form button {
+    border-radius: 25px;
+  }
+  
