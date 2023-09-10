@@ -1,0 +1,51 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Change the background color as needed */
+    color: white; /* Change the text color as needed */
+    padding: 10px 20px;
+  }
+  
+  .title {
+    
+    font-size: 44px; /* Adjust the font size as needed */
+    font-weight: bold;
+    margin-left: 40px; /* Adjust the distance from the left side */
+  }
+  
+  /* Menu on the right */
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu ul li {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  /* Login/Register buttons */
+  .auth-buttons button {
+    margin-left: 20px;
+    padding: 8px 16px;
+    background-color: #007bff; /* Change the button color as needed */
+    color: white; /* Change the text color as needed */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style the buttons on hover */
+  .auth-buttons button:hover {
+    background-color: #0056b3; /* Change the hover color as needed */
+  }
+  
