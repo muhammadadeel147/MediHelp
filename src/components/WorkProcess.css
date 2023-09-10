@@ -1,13 +1,13 @@
 .work-process {
     padding: 60px 0;
     text-align: center;
-    background-color: #0D2146; /* Background color for the work process section */
+    background-color: #0D2146; 
   }
   
   .work-process h2 {
     font-size: 24px;
     margin-bottom: 30px;
-    color: #fff; /* Text color for the heading */
+    color: #fff; 
   }
   
   .process-steps {
@@ -19,7 +19,7 @@
   .process-step {
     width: 300px;
     background-color: #fff;
-    border-radius: 15px; /* Round shape for the card */
+    border-radius: 15px; 
     margin: 20px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -27,11 +27,11 @@
   }
   
   .process-step:hover {
-    transform: translateY(-5px); /* Add a slight lift effect on hover */
+    transform: translateY(-5px); 
   }
   
   .process-step img {
-    width: 100px; /* Adjust the image size as needed */
+    width: 100px; 
     margin: 0 auto 20px;
     display: block;
   }
@@ -39,18 +39,18 @@
   .process-step h3 {
     font-size: 18px;
     margin: 10px 0;
-    color: #0D2146; /* Text color for the step title */
+    color: #0D2146; 
   }
   
   .process-step p {
     font-size: 14px;
     margin-bottom: 20px;
-    color: #777; /* Text color for the step description */
+    color: #777; 
   }
   
   button {
-    background-color: #07ccec; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #07ccec; 
+    color: #fff;
     font-size: 16px;
     padding: 10px 20px;
     border: none;
@@ -60,6 +60,6 @@
   }
   
   button:hover {
-    background-color: #1296db; /* Button background color on hover */
+    background-color: #1296db; 
   }
   

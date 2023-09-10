@@ -1,6 +1,6 @@
 import React,{ useEffect,useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import './ContactUsPage.css'; // Create a new CSS file for additional styles
+import './ContactUsPage.css'; 
 
 const ContactUsPage = () => {
   
@@ -41,7 +41,7 @@ const ContactUsPage = () => {
   return (
     
     <div className="container mt-5">
-      {/* Contact Information Section */}
+    
       <div className="contact-info shadow p-4 rounded mb-4">
         <div className="row">
           <div className="col-md-4">
@@ -67,7 +67,7 @@ const ContactUsPage = () => {
           </div>
         </div>
       </div>
-{/* Contact Form Section */}
+
 <div className="container">
   <div className="row justify-content-center">
     <div className="contact-form shadow p-4 rounded mt-4 col-md-8">

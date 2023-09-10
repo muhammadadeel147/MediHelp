@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link,useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-import './SignUpPage.css'; // Create a new CSS file for additional styles
+import './SignUpPage.css'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faUser,
@@ -14,7 +14,7 @@ import {
 
 const SignUpPage = () => {
   const navigate = useNavigate();
-  // const history=useHistory();
+ 
   const [user, setUser] = useState({
     name: '',
     email: '',

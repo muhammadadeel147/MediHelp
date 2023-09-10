@@ -1,5 +1,5 @@
 import React from 'react';
-import './BookAppointment.css'; // Import your custom CSS for styling
+import './BookAppointment.css'; 
 
 function BookAppointment() {
   return (

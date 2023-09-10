@@ -1,18 +1,17 @@
 .hero {
-    background-image: url('../Assets/1.jpg'); /* Add your image path here */
+    background-image: url('../Assets/1.jpg'); 
     background-size: cover;
     background-position: center;
-    height: 500px; /* Adjust the height as needed */
-    display: flex;
+    height: 500px; 
     align-items: center;
-    padding: 0 20px; /* Adjust the padding as needed */
+    padding: 0 20px;
     height: 90vh;
   }
   
   .hero-content {
     max-width: 50%;
-    color: #fff; /* Text color */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional text shadow */
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
     margin-left: 5%
   }
   
@@ -30,8 +29,8 @@
   }
   
   button{
-    background-color: #27477D; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #27477D; 
+    color: #fff; 
     font-size: 16px;
     padding: 20px 20px;
     border: none;
@@ -43,6 +42,6 @@
   
   button:hover {
     background-color: #fcfdfe;
-    color: #27477D; /* Button background color on hover */
+    color: #27477D; 
   }
   

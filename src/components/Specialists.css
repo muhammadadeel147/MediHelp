@@ -1,7 +1,7 @@
 .specialists {
     padding: 40px 0;
     text-align: center;
-    background-color: #f8f8f8; /* Background color for the specialist section */
+    background-color: #f8f8f8; 
   }
   .specialists img{
     width: 300px;
@@ -40,8 +40,8 @@
   }
   
   button {
-    background-color: #07ccec; /* Button background color */
-    color: #fff; /* Button text color */
+    background-color: #07ccec; 
+    color: #fff;
     font-size: 16px;
     padding: 10px 20px;
     border: none;
@@ -51,6 +51,6 @@
   }
   
   button:hover {
-    background-color: #1296db; /* Button background color on hover */
+    background-color: #1296db; 
   }
   

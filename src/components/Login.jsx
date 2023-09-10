@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faLock } from "@fortawesome/free-solid-svg-icons";
-import "./LoginPage.css"; // Import your CSS file for additional styles
+import "./LoginPage.css"; 
 import img from "../Assets/1.png";
 
 const LoginPage = () => {
@@ -87,7 +87,7 @@ const LoginPage = () => {
             </div>
           </div>
           <div className="col-md-6 order-md-1 mb-4 mb-md-0">
-            {/* Replace the placeholder URL with your vector image */}
+   
             <img src={img} alt="Login Illustration" className="img-fluid" />
           </div>
         </div>

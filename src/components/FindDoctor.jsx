@@ -1,5 +1,5 @@
 import React from 'react';
-import './FindDoctor.css'; // Import your custom CSS for styling
+import './FindDoctor.css'; 
 import img from "../Assets/2.jpg";
 
 const FindDoctor = () => {

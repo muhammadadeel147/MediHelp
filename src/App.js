@@ -1,16 +1,8 @@
 
 import './App.css';
-// import A from './components/A';
-// import BookAppointment from './components/BookAppointment';
-// import FindDoctor from './components/FindDoctor';
-// import Hero from './components/Hero';
  import Navbar from './components/Navbar';
-// import Services from './components/Services';
-// import Specialists from './components/Specialists';
-// import TestimonialSection from './components/TestimonialSection';
-// import WorkProcess from './components/WorkProcess';
  import MentalHealthVideos from './page/Mentalhealth';
-// import Survey from './utils/Survey';
+
 import {Route,Routes,} from "react-router-dom";
 import Home from './components/Home';
 import Login from './components/Login';

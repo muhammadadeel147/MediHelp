@@ -1,23 +1,23 @@
-/* Navbar container */
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333; /* Change the background color as needed */
-    color: white; /* Change the text color as needed */
+    background-color: #333; 
+    color: white; 
     padding: 10px 20px;
     background-color: #07CCEC;
   }
   
   .title {
     
-    font-size: 44px; /* Adjust the font size as needed */
+    font-size: 44px; 
     font-weight: bold;
-    margin-left: 40px; /* Adjust the distance from the left side */
+    margin-left: 40px;
     cursor: pointer;
   }
   
-  /* Menu on the right */
+  
   .menu {
     display: flex;
     align-items: center;
@@ -38,20 +38,20 @@
     font-size: 20px;
   }
   
-  /* Login/Register buttons */
+ 
   .auth-buttons button {
     margin-left: 20px;
     padding: 8px 16px;
-    background-color: #27477D; /* Change the button color as needed */
-    color: white; /* Change the text color as needed */
+    background-color: #27477D; 
+    color: white; 
     border: none;
     border-radius: 4px;
     cursor: pointer;
     border-radius: 20px;
   }
   
-  /* Style the buttons on hover */
+
   .auth-buttons button:hover {
-    background-color: #0056b3; /* Change the hover color as needed */
+    background-color: #0056b3; 
   }
   

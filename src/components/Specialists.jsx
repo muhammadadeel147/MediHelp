@@ -1,5 +1,5 @@
 import React from 'react';
-import './Specialists.css'; // Create this CSS file for styling
+import './Specialists.css'; 
 import img from "../Assets/2.jpg"; 
 import img1 from "../Assets/3.jpg";
 import img2 from "../Assets/4.jpg";
